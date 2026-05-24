@@ -1,0 +1,1 @@
+This folder holds project screenshots and cert badges. Add images here.

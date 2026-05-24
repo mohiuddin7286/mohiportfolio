@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* The Live Animated Gradient Background */
+.animate-gradient-bg {
+  background: linear-gradient(-45deg, #0f172a, #1e293b, #312e81, #111827);
+  background-size: 400% 400%;
+  animation: gradientMove 15s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Base styling to ensure smooth rendering */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #020617; /* This is equivalent to Tailwind's slate-950 */
+  color: #cbd5e1; /* Default text color to light gray */
+}
+
+/* Swiper Theme Overrides */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #f97316 !important; /* Tailwind Orange-500 */
+}
+
+.swiper-pagination-bullet-active {
+  background: #f97316 !important;
+}
+
+.swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.5);
+}

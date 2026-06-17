@@ -87,8 +87,42 @@ const filterableProjects = [
     tech: ["Python", "TensorFlow", "Pandas", "Scikit-learn"],
     github: "https://github.com/yourusername/trade-matching-ml",
     demo: "https://github.com/yourusername/trade-matching-ml"
+  },
+  {
+    id: 4,
+    title: "Titanic Survival Prediction",
+    description:
+      "Binary classification model to predict Titanic passenger survivability using feature engineering (titles, family size) and ensemble ML.",
+    image: "/avatar.png",
+    categories: ["Data Science", "Machine Learning", "AI"],
+    tech: ["Python", "Pandas", "NumPy", "Scikit-Learn", "XGBoost", "Logistic Regression", "Random Forest", "Matplotlib", "Seaborn"],
+    github: "https://github.com/mohiuddin7286/titanic",
+    demo: "https://titanic-ek8kwv5wogrig8jf74fohe.streamlit.app/"
+  },
+  {
+    id: 5,
+    title: "Real Estate House Price Prediction",
+    description:
+      "Regression pipeline to estimate home sale prices from high-dimensional features with robust preprocessing and gradient boosting ensembles.",
+    image: "/avatar.png",
+    categories: ["Data Science", "Machine Learning"],
+    tech: ["Python", "Pandas", "NumPy", "Scikit-Learn", "CatBoost", "XGBoost", "Matplotlib"],
+    github: "https://github.com/mohiuddin7286/house_prediction",
+    demo: "https://houseprediction-bgns8fnwuuasqstveg6jg2.streamlit.app/"
+  },
+  {
+    id: 6,
+    title: "Iris Species Classification",
+    description:
+      "Multi-class classification of Iris species using EDA + scaling and ML models like SVM and KNN, validated via confusion matrix.",
+    image: "/avatar.png",
+    categories: ["Data Science", "Machine Learning", "AI"],
+    tech: ["Python", "Pandas", "Seaborn", "Matplotlib", "Scikit-Learn", "SVM", "KNN", "Decision Tree"],
+    github: "https://github.com/mohiuddin7286/iris",
+    demo: "https://ktfgoekn9fd3esmc4qlksg.streamlit.app/"
   }
 ];
+
 
 const certifications = [
   { name: 'AWS Certified Cloud Practitioner', issuer: 'Amazon Web Services', date: 'May 2026', id: 'Od178b4be8b34a10aef327aa428a9a99', icon: SiAmazonaws, color: 'text-[#FF9900]', image: '/aws-cert.png', verifyLink: 'https://cp.certmetrics.com/amazon/en/public/verify/credential/0d178b4be8b34a10aef327aa428a9a99' },
